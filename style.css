@@ -7,63 +7,71 @@
     font-weight: normal;
 }
 
-:root{
-    --cor0:#012E40;
-    --cor1:#024959;
-    --cor2:#c2f8f8;
-    --cor3:#646C8F;
-    --cor4:#DCC3A1;
-    --cor5:#F2E3D5;
-    
+:root {
+    --cor0: #012E40;
+    --cor1: #024959;
+    --cor2: #c2f8f8;
+    --cor3: #646C8F;
+    --cor4: #DCC3A1;
+    --cor5: #F2E3D5;
+
 
     --font-padrao: 'Sofia Sans Condensed', sans-serif;
-    --font-destaque:'sofia'
+    --font-destaque: 'sofia'
 }
-*{
+
+* {
     margin: 0px;
     padding: 0px;
 }
-body{
-    background-color:var(--cor2);
+
+body {
+    background-color: var(--cor2);
     font-family: var(--font-padrao);
 }
-header{
+
+header {
     background-color: var(--cor1);
     color: var(--cor5);
     text-align: center;
     min-height: 120px;
     font-size: 2em;
     padding-top: 10px;
-    
+
 }
-nav{
+
+nav {
     background-color: var(--cor1);
     padding: 10px;
     box-shadow: -2px 4px 3px rgba(0, 0, 0, 0.356);
 }
-nav > a{
-    color:var(--cor5);
+
+nav>a {
+    color: var(--cor5);
     padding: 10px;
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;
     border-radius: 3px;
-    
+
 }
-nav >:hover{
+
+nav>:hover {
     background-color: var(--cor5);
     color: #012E40;
 }
-header > h1{
+
+header>h1 {
     color: var(--cor5);
     font-family: var(--font-destaque);
     font-size: 4em;
     font-weight: normal;
-    margin-bottom:0px;
+    margin-bottom: 0px;
     text-shadow: 1px 3px 2px rgba(0, 0, 10, 0.397);
 
 }
-main{
+
+main {
     background-color: white;
     min-width: 300px;
     max-width: 1000px;
@@ -71,22 +79,25 @@ main{
     margin-bottom: 0px;
     padding: 100px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.534);
-   
+
 }
-img{
+
+img {
     width: 50%;
-    border-bottom-left-radius:10px;
+    border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
-main > article > h1{
+
+main>article>h1 {
     color: var(--cor0);
     font-family: var(--font-destaque);
     font-size: 2.5em;
-    margin-top:-60px;
+    margin-top: -60px;
 }
-main > article  h2{
+
+main>article h2 {
     color: var(--cor0);
     font-family: var(--font-destaque);
     font-size: 1.8em;
@@ -96,81 +107,96 @@ main > article  h2{
     margin-top: 10px;
 
 }
-main img{
+
+main img {
     width: 100%;
 }
-main img.pequena{
+
+main img.pequena {
     max-width: 350px;
     display: block;
     margin: auto;
 }
-main p{
+
+main p {
     margin: 15px 0px;
     text-align: justify;
     text-indent: 30px;
     font-size: 1.5em;
     line-height: 1em;
-    color:var(--cor0);
+    color: var(--cor0);
     font-family: var(--font-padrao);
-    
+
 }
+
 main a {
     text-decoration: none;
     font-weight: bold;
     color: var(--cor3);
 }
-main strong{
+
+main strong {
     color: var(--cor3);
     font-size: 1em;
     font-weight: bold;
 
 }
-div.video{
+
+div.video {
     background-color: var(--cor0);
     margin: 0px -20px 30px -20px;
     padding: 20px;
     padding-bottom: 64%;
     position: relative;
 }
-div.video > iframe {
+
+div.video>iframe {
     position: absolute;
     top: 5%;
     left: 2%;
     width: 96%;
     height: 88%;
 }
-aside{
+
+aside {
     background-color: var(--cor1);
     padding: 20px;
     border-radius: 20px;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.473);
 }
-main > article > aside > h2{
+
+main>article>aside>h2 {
     color: var(--cor2);
 }
 
 
-aside ul{
+aside ul {
     list-style-type: '\25FC\00A0\00A0';
     list-style-position: inside;
 }
-aside > ul >li{
+
+aside>ul>li {
     font-size: 1.2em;
     line-height: 1em;
     margin-top: 10px;
     color: var(--cor4);
     font-family: var(--font-padrao);
 }
+
 main > article > aside > p {
     color: var(--cor4);
     font-family: var(--font-padrao);
 }
-footer{
-    background-color:var(--cor0);
-    color:var(--cor4);
+
+footer {
+    background-color: var(--cor0);
+    color: var(--cor4);
     text-align: center;
     font-size: 1em;
     padding: 5px;
     font-weight: bold;
 }
-foo
+
+footer > a {
+    text-decoration: none;
+}
