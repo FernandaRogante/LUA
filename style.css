@@ -28,6 +28,7 @@
 body {
     background-color: var(--cor2);
     font-family: var(--font-padrao);
+    padding: 0px;
 }
 
 header {
